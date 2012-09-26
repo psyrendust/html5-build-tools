@@ -6,9 +6,10 @@ This repo contains the build tools that are used to compress and minimize javasc
 
 Include this repo as a submodule in the root of your project. Then make a copy of `sample-build.sh` and place it in the root of your project folder. You can use the following to do so:
 
-	git submodule add git@github.com:psyrendust/html5-build-tools.git tools;
-	cp tools/sample-build.sh build.sh;
-
+```bash
+git submodule add git@github.com:psyrendust/html5-build-tools.git tools;
+cp tools/sample-build.sh build.sh;
+```
 
 Edit the `build.sh` script to include any files that you would like to process for deployment.
 

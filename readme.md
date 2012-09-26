@@ -10,7 +10,7 @@ Include this repo as a submodule in the root of your project. Then make a copy o
 	git submodule add https://github.com/psyrendust/html5-build-tools.git tools;
 	cp tools/sample-build.sh build.sh;
 
-Edit the build.sh file to include any files that you would like to process for deployment.
+Edit the `build.sh` script to include any files that you would like to process for deployment.
 
 # Compression for deployment
 

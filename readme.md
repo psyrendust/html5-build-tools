@@ -15,3 +15,11 @@ Edit the `build.sh` script to include any files that you would like to process f
 # Compression for deployment
 
 When you are ready to deploy to your server, please run `./build.sh` from the root of your project folder. This will generate a `publish` folder and run htmlcompressor on the html files and yuicompressor on all of the css and js files that you have defined in the `build.sh` script. Please use the assets in the publish folder when uploading to your server.
+
+# Release Notes
+0.0.1 (09.25.2012)
+
+* Created repo
+* Added htmlcompressor 1.5.2
+* Added yuicompressor 2.4.7
+* Modified sample-build.sh

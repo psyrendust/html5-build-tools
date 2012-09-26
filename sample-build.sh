@@ -17,9 +17,11 @@ cp -R "$dev" "$publish";
 options1="--preserve-line-breaks --preserve-multi-spaces --compress-js --compress-css --preserve-php --preserve-ssi";
 options2="--compress-js --compress-css --preserve-php --preserve-ssi";
 java -jar "$html" $options1 -o "$publish/index.html" "$publish/index.html";
+java -jar "$html" $options1 -o "$publish/404.html" "$publish/404.html";
 
 # run yuicompressor on css
 css="$publish/css";
+java -jar "$yui" "$css/normalize.css" -o "$css/normalize.css";
 java -jar "$yui" "$css/screen.css" -o "$css/screen.css";
 
 # run yuicompressor on js
